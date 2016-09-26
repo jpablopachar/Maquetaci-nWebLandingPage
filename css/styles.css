@@ -51,6 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 63px;
+    border-bottom: 1px dashed #d6e199;
 }
     .navbar a {
         color: #fff;
