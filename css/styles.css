@@ -33,3 +33,31 @@ table {
 
 /* --------------------- PROJECT ------------------------- */
 
+body {
+    text-align: center;
+}
+.header {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/dummy-header.jpg) no-repeat center top;
+}
+.navbar {
+    background: #acc233;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+}
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 20px;
+        font-family: 'Stint Ultra Condensed', cursive;
+        font-size: 20px;
+    }
+.tarifas {
+    text-align: left;
+}
