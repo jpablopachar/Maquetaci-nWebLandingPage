@@ -93,4 +93,42 @@ p {
 .localizacion {
     color: #566119;
 }
+.list-tratamientos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-tratamientos li {
+    padding: 0px 30px;
+}
+.list-tratamientos img {
+    position: relative;
+    z-index: 1;
+}
+.list-tratamientos figcaption {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -40px;
+}
+.list-tratamientos figure {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.list-tratamientos figure:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    background: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 
